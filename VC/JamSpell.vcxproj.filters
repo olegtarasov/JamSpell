@@ -87,12 +87,12 @@
     <ClInclude Include="..\jamspell\utils.hpp">
       <Filter>JamSpell\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="jamspell_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="JamSpell.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="dllmain.cpp">
