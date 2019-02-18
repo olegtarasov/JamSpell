@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{577c3dee-47cf-4f2c-b998-d6832a8b50dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Header Files">
+      <UniqueIdentifier>{cc8ea300-36f0-4dc2-8003-cd22a6bb0939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Source Files">
+      <UniqueIdentifier>{c87de277-4e9d-4b18-b4ca-c4885828c0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JamSpell">
+      <UniqueIdentifier>{7cfa4a35-cbc1-4ac7-95d7-d6ddf7781530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JamSpell\Source Files">
+      <UniqueIdentifier>{4080ef14-3e88-48e5-8416-0c9317492ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JamSpell\Header Files">
+      <UniqueIdentifier>{988dd7be-7337-40ba-9473-cdb9f58d29da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\contrib\bloom\bloom_filter.hpp">
+      <Filter>Contrib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\contrib\cityhash\city.h">
+      <Filter>Contrib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\contrib\cityhash\citycrc.h">
+      <Filter>Contrib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\contrib\cityhash\config.h">
+      <Filter>Contrib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\contrib\handypack\handypack.hpp">
+      <Filter>Contrib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\contrib\nlohmann\json.hpp">
+      <Filter>Contrib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\contrib\phf\phf.h">
+      <Filter>Contrib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\contrib\tsl\robin_growth_policy.h">
+      <Filter>Contrib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\contrib\tsl\robin_hash.h">
+      <Filter>Contrib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\contrib\tsl\robin_map.h">
+      <Filter>Contrib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\contrib\tsl\robin_set.h">
+      <Filter>Contrib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jamspell\bloom_filter.hpp">
+      <Filter>JamSpell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jamspell\lang_model.hpp">
+      <Filter>JamSpell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jamspell\perfect_hash.hpp">
+      <Filter>JamSpell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jamspell\spell_corrector.hpp">
+      <Filter>JamSpell\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jamspell\utils.hpp">
+      <Filter>JamSpell\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JamSpell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\bloom\bloom_filter.cpp">
+      <Filter>Contrib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\cityhash\city.cc">
+      <Filter>Contrib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\handypack\handypack.cpp">
+      <Filter>Contrib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\nlohmann\json.cpp">
+      <Filter>Contrib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\phf\phf.cc">
+      <Filter>Contrib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\contrib\tsl\robin_map.cpp">
+      <Filter>Contrib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jamspell\bloom_filter.cpp">
+      <Filter>JamSpell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jamspell\lang_model.cpp">
+      <Filter>JamSpell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jamspell\perfect_hash.cpp">
+      <Filter>JamSpell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jamspell\spell_corrector.cpp">
+      <Filter>JamSpell\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jamspell\utils.cpp">
+      <Filter>JamSpell\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
